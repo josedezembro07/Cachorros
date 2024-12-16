@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    background-color: #fefaf3;
+}
+
+h1, h2 {
+    color: #5c4b51;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #e76f51;
+}
+
+/* Seções */
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+.about p, .space p, .contact p {
+    margin: 10px 0;
+}
+
+/* Espaço */
+.space {
+    background-color: #fef3dc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Tabela de preços */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4a261;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f3e7;
+}
+
+/* Contato */
+.contact strong {
+    color: #e76f51;
+}
+
+/* Botão WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #2a9d8f, #264653);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background: linear-gradient(45deg, #264653, #2a9d8f);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Rodapé */
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
