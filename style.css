@@ -104,3 +104,31 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    .whatsapp-button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+}
